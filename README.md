@@ -24,16 +24,18 @@ c = a;
 ### Your solution here:
 1.  What is `a`?
 ```
-a is ...
+a is .'bongos'..
 ```
 2.  What is `b`?
 ```
-b is ...
+b is true . 
 ```
 3.  What is `c`?
 ```
-c is ...
+c is .'bongos'..
 ```
+
+
 
 ## Concatenation
 Use the `+` operator to concatenate these strings together within a `console.log()`: "Please", "squeeze", "the", "cheese". Make sure there are spaces in-between each word.
@@ -43,16 +45,17 @@ const firstWord = "Please";
 const secondWord = "squeeze";
 const thirdWord = "the";
 const fourthWord = "cheese";
-```
-Result should be:
-```js
-"Please squeeze the cheese"
-```
+``
 
+Result should be:
+
+"Please squeeze the cheese"
+``` 
+console.log(firstWord+" "+secondWord+" "+thirdWord+" "+fourthWord)
 ### Your solution here:
 4.  Fill in the `console.log()`?
 ```js
-console.log()
+console.log();
 ```
 
 Output a console log `The sum of 5 and 10 is 15` where the values for 5 and 10 are saved to variables, and where 15 comes from those variables being summed.
@@ -61,17 +64,26 @@ const num1 = 5;
 const num2 = 10;
 ```
 
+let total = num1+num2;
+console.log(total)
+
 ### Your solution here:
+
+
+
+
 5.  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
-// your solution here
+// let num3;
+num3 = total;
+console.log(num3);
 ```
 6.  Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
 
 >The sum of 5 and 10 is 15
 
 ```js
-console.log()
+console.log("The sum of "+num1+" and "+num2+" is "+num3);
 ```
 
 ## Comparisons
@@ -89,14 +101,14 @@ h) 9 !== 8 + 1
 ### Your solution here:
 7.  Write `true` or `false` based on the list above
 ```
-a) 
-b)  
-c)
-d) 
-e) 
-f) 
-g) 
-h) 
+a) false
+b)  true
+c) false
+d) false
+e) false
+f) false
+g) true
+h) false
 ```
 
 ## Conditionals
@@ -112,16 +124,88 @@ Write a conditional statement that...
 8.  Write your javascript solution below
 ```js
 // your answer here
-```
+
+
+var theNumber = 15 ;
+
+if(theNumber % 3 === 0 ){
+  console.log("Fizz");
+}
+else if(theNumber % 5 === 0){
+  console.log("Buzz");
+}
+else if (theNumber % 3 === 0 && theNumber % 5 === 0)
+{
+  console.log("FizzBuzz");
+}
+else {
+  console.log(theNumber)
+}
 
 #### BONUS
 9.  Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
-```js
-// your answer here
+var theNumber=1;
+var numberOftimes=100;
+
+for(var i=0;i<numberOftimes;i++) {
+
+if(theNumber % 3 === 0 ){
+  console.log("Fizz");
+  theNumber= theNumber+1;
+}
+else if(theNumber % 5 === 0){
+  console.log("Buzz");
+  theNumber= theNumber+1;
+}
+else if (theNumber % 3 === 0 && theNumber % 5 === 0)
+{
+  console.log("FizzBuzz");
+  theNumber= theNumber+1;
+}
+else {
+  console.log(theNumber)
+  theNumber= theNumber+1;
+}
+
+
+}
+
+
+
+
 ```
 10.  Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
 ```js
-// your answer here
+/var theNumber=1;
+
+function calculate3and5(numberOftimes){
+for(var i=0;i<numberOftimes;i++) {
+
+if(theNumber % 3 === 0 ){
+  console.log("Fizz");
+  theNumber= theNumber+1;
+}
+else if(theNumber % 5 === 0){
+  console.log("Buzz");
+  theNumber= theNumber+1;
+}
+else if (theNumber % 3 === 0 && theNumber % 5 === 0)
+{
+  console.log("FizzBuzz");
+  theNumber= theNumber+1;
+}
+else {
+  console.log(theNumber)
+  theNumber= theNumber+1;
+}
+
+
+}//end loop
+   }//end function 
+
+
+   calculate3and5(100);
+
 ```
 
 # Additional Resources
