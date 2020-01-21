@@ -114,8 +114,6 @@ Write a conditional statement that...
 ### Your solution here:
 8.  Write your javascript solution below
 ```js
-// your answer here
-```
 var fizzbuzz ;
 for (fizzbuzz=0;fizzbuzz <100;fizzbuzz++)
  {
@@ -127,6 +125,8 @@ for (fizzbuzz=0;fizzbuzz <100;fizzbuzz++)
        console.log("fizzbuzz")}
        else{
         console.log("fizzbuzz")}}
+```
+
 
 #### BONUS
 9.  Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
