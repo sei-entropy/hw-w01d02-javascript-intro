@@ -73,6 +73,8 @@ let num3=num1+num2;
 
 ```js
 console.log('The sum of '+num1+' and '+num2+' is '+ (num3) )
+
+
 ```
 
 ## Comparisons
