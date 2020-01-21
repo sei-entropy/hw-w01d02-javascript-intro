@@ -115,14 +115,16 @@ Write a conditional statement that...
 ```js
 // your answer here
 
-for (let i = 0; i < 100; i++) {
-if ( i  === 3  ) {
+for (let i = 0; i <= 100; i++) {
+
+if ( ( i%3 )  == 3  ) {
     console.log("Plang")
 
-    if ( i === 5  ) {
+    if ( ( i% 5 ) == 5  ) {
         console.log("Plong")    
 } }  
 else{ console.log(i) }
+
 }
 
 
