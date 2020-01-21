@@ -39,7 +39,7 @@ b is true
 3.  What is `c`?
 
 ```
-c is ...
+c is bongos
 ```
 
 ## Concatenation
@@ -160,6 +160,19 @@ if (num100 % 3 === 0 && num100 % 5 === 0) {
 // your answer here
 
 for (let i = 1; i <= 100; i++) {
+  let multipleOf_5 = i % 5 === 0;
+
+  let multipleOf_3 = i % 3 === 0;
+
+  let multipleOf_11 = i % 11 === 0;
+
+  if (multipleOf_3) {
+    console.log("Fizz");
+  } else if (multipleOf_5) {
+    console.log("Buzz");
+  } else if (multipleOf_11) {
+    console.log("FizzBuzz");
+  }
   console.log(i);
 }
 ```
@@ -168,6 +181,18 @@ for (let i = 1; i <= 100; i++) {
 
 ```js
 // your answer here
+
+const multiple = function(num) {
+  let output = "";
+  output += num % 7 === 0 ? "FizzBuzz" : "";
+  output += num % 5 === 0 ? "Buzz" : "";
+  output += num % 3 === 0 ? "Fizz" : "";
+  return output ? output : num;
+};
+// Trying out the function
+console.log(multiple(99));
+console.log(multiple(3));
+console.log(multiple(5));
 ```
 
 # Additional Resources
