@@ -24,15 +24,15 @@ c = a;
 ### Your solution here:
 1.  What is `a`?
 ```
-a is ...
+a is ...bongos
 ```
 2.  What is `b`?
 ```
-b is ...
+b is ...true
 ```
 3.  What is `c`?
 ```
-c is ...
+c is ...bongos
 ```
 
 ## Concatenation
@@ -51,7 +51,7 @@ Result should be:
 
 ### Your solution here:
 4.  Fill in the `console.log()`?
-```js
+``` let t =  firstWord + " " + secondWord + " " + thirdWord + " " + fourthWord; 
 console.log()
 ```
 
@@ -72,7 +72,10 @@ const num2 = 10;
 
 ```js
 console.log()
+
 ```
+let num3 = num1 + num2;
+let num = "The sum of" + " " + num1 + " " + "and" + " " + num2 + " " + "is" + " "  + num3
 
 ## Comparisons
 By just looking at the following expressions, determine in your mind whether or not each will evaluate to true or false
@@ -89,14 +92,14 @@ h) 9 !== 8 + 1
 ### Your solution here:
 7.  Write `true` or `false` based on the list above
 ```
-a) 
-b)  
-c)
-d) 
-e) 
-f) 
-g) 
-h) 
+a)false 
+b)true
+c)false
+d)false
+e)false
+f)false
+g)true
+h)false
 ```
 
 ## Conditionals
@@ -113,6 +116,21 @@ Write a conditional statement that...
 ```js
 // your answer here
 ```
+let number =0;
+number = 
+
+if (number * 3  ) { 
+    ("Fizz") }
+else if (number * 5) { 
+    ("Buzz") }
+else if (number*3  && number * 5 ) {  
+    ("FizzBuzz") }
+else {
+    (numbers) } 
+
+}
+
+let 
 
 #### BONUS
 9.  Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
