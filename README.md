@@ -120,10 +120,10 @@ for(let x = 0; x<= 100; x ++){
     console.log( "Fizz");
   }
    else if (x % 5 === 0){
-    console.log(i + "Buzz");
+    console.log(x + "Buzz");
   }
   else if( x % 3 === 0 && x % 5 === 0){
-    console.log(i +"Fizzbuzz");
+    console.log(x +"Fizzbuzz");
   }
   else {
         console.log(x);
