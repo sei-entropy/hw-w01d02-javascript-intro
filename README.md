@@ -24,15 +24,15 @@ c = a;
 ### Your solution here:
 1.  What is `a`?
 ```
-a is ...
+a is 'bongos'
 ```
 2.  What is `b`?
 ```
-b is ...
+b is true
 ```
 3.  What is `c`?
 ```
-c is ...
+c is 1
 ```
 
 ## Concatenation
@@ -44,15 +44,16 @@ const secondWord = "squeeze";
 const thirdWord = "the";
 const fourthWord = "cheese";
 ```
-Result should be:
+R esult should be:
 ```js
 "Please squeeze the cheese"
+
 ```
 
 ### Your solution here:
 4.  Fill in the `console.log()`?
 ```js
-console.log()
+`console.log(firstWord +secondWord+ thirdWord + fourthWord)
 ```
 
 Output a console log `The sum of 5 and 10 is 15` where the values for 5 and 10 are saved to variables, and where 15 comes from those variables being summed.
@@ -64,14 +65,15 @@ const num2 = 10;
 ### Your solution here:
 5.  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
-// your solution here
+let num3 = num1+num2;
+//
 ```
 6.  Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
 
 >The sum of 5 and 10 is 15
 
 ```js
-console.log()
+console.log("The sum of " + num1 +"and"+ num2 + "=" + num3 )
 ```
 
 ## Comparisons
@@ -89,14 +91,14 @@ h) 9 !== 8 + 1
 ### Your solution here:
 7.  Write `true` or `false` based on the list above
 ```
-a) 
-b)  
-c)
-d) 
-e) 
-f) 
-g) 
-h) 
+a) false
+b) true 
+c)false
+d) false
+e) false
+f) false
+g) true
+h) false
 ```
 
 ## Conditionals
@@ -111,13 +113,24 @@ Write a conditional statement that...
 ### Your solution here:
 8.  Write your javascript solution below
 ```js
-// your answer here
+// let i;
+for(i=0;i<100;i++){
+if (i%3===0 && i%5===0)
+print(“FizzBuzz” )
+if(i%3===0)
+print("FIZZ")
+else if(i%5===0)
+print("Buzz")
+if (i%3!===0 || i%5!===0)
+print("I")
+
+}
 ```
 
 #### BONUS
 9.  Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
 ```js
-// your answer here
+//   while (i<=100)
 ```
 10.  Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
 ```js
