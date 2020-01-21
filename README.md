@@ -8,7 +8,7 @@
     - https://blog.codeanalogies.com/2018/06/18/javascript-booleans-explained-by-going-to-court/ (reading)
 
 
-## Activity Assignment
+## Assignment Operator
 Without running the following code, try to determine:
 
 ```js
@@ -24,18 +24,18 @@ c = a;
 ### Your solution here:
 1.  What is `a`?
 ```
-a is ...
+a is a variable that contains the string 'bongos'.
 ```
 2.  What is `b`?
 ```
-b is ...
+b is a variable that contains the boolean value true.
 ```
 3.  What is `c`?
 ```
-c is ...
+c is a variable that contains the string 'bongos'.
 ```
 
-## Activity Concatenation
+## Concatenation
 Use the `+` operator to concatenate these strings together within a `console.log()`: "Please", "squeeze", "the", "cheese". Make sure there are spaces in-between each word.
 
 ```js
@@ -52,7 +52,7 @@ Result should be:
 ### Your solution here:
 4.  Fill in the `console.log()`?
 ```js
-console.log()
+console.log(firstWord + ' ' + secondWord + ' ' + thirdWord + ' ' + fourthWord)
 ```
 
 Output a console log `The sum of 5 and 10 is 15` where the values for 5 and 10 are saved to variables, and where 15 comes from those variables being summed.
@@ -65,16 +65,17 @@ const num2 = 10;
 5.  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
 // your solution here
+let num3 = num1 + num2;
 ```
 6.  Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
 
 >The sum of 5 and 10 is 15
 
 ```js
-console.log()
+console.log('The sum of' + num1 + ' and ' + num2 + ' is ' + num3);
 ```
 
-## Activity Comparisons
+## Comparisons
 By just looking at the following expressions, determine in your mind whether or not each will evaluate to true or false
 ```
 a) 999 > 999
@@ -89,17 +90,17 @@ h) 9 !== 8 + 1
 ### Your solution here:
 7.  Write `true` or `false` based on the list above
 ```
-a) 
-b)  
-c)
-d) 
-e) 
-f) 
-g) 
-h) 
+a) false
+b) true
+c) false
+d) false
+e) false
+f) false
+g) true
+h) false
 ```
 
-## Activity Conditionals
+## Conditionals
 Declare a variable equal to a number 0 to 100
 
 Write a conditional statement that...
@@ -112,16 +113,84 @@ Write a conditional statement that...
 8.  Write your javascript solution below
 ```js
 // your answer here
+let num = 50;
+if (num % 3 === 0 && num % 5 === 0){
+    console.log('FizzBuzz');
+}
+else if (num % 3 === 0){
+    console.log('Fizz');
+}
+else if (num % 5 === 0){
+    console.log('Buzz');
+}
+else {
+    console.log(num);
+}
 ```
 
 #### BONUS
 9.  Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
 ```js
 // your answer here
+//for loop
+for (let num = 1; num <= 100; num++){
+    if (num % 3 === 0 && num % 5 === 0){
+        console.log('FizzBuzz');
+    }
+    else if (num % 3 === 0){
+        console.log('Fizz');
+    }  
+    else if (num % 5 === 0){
+        console.log('Buzz');
+    }
+    else {
+        console.log(num);
+    }
+}
+
+//while loop
+let num = 1;
+while (num <= 100){
+    if (num % 3 === 0 && num % 5 === 0){
+        console.log('FizzBuzz');
+    }
+    else if (num % 3 === 0){
+        console.log('Fizz');
+    }  
+    else if (num % 5 === 0){
+        console.log('Buzz');
+    }
+    else {
+        console.log(num);
+    }
+
+    num++;
+}
 ```
 10.  Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
 ```js
 // your answer here
+//function
+function checkConditions(num){
+    if (num % 3 === 0 && num % 5 === 0){
+        console.log('FizzBuzz');
+    }
+    else if (num % 3 === 0){
+        console.log('Fizz');
+    }  
+    else if (num % 5 === 0){
+        console.log('Buzz');
+    }
+    else {
+        console.log(num);
+    }
+
+    num++;
+}
+
+// Then I call the function and pass an argument
+checkConditions(50);
+checkConoditions(100);
 ```
 
 # Additional Resources
