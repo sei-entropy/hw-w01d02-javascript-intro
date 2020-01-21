@@ -191,7 +191,7 @@ const multiple = function(num) {
 };
 // Trying out the function
 console.log(multiple(99));
-console.log(multiple(3));
+console.log(multiple(7));
 console.log(multiple(5));
 ```
 
