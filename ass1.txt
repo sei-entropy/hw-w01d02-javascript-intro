@@ -1,0 +1,47 @@
+const firstWord = "Please";
+const secondWord = "squeeze";
+const thirdWord = "the";
+const fourthWord = "cheese";
+// q4
+console.log(firstWord + " " + secondWord + " " + thirdWord + " " + fourthWord);
+//q5
+const num1 = 5;
+const num2 = 10;
+
+const num3 = num1 + num2
+//q6
+console.log("the sum of "+num1+"and"+num2+"is"+num3)
+
+//q7
+a) false
+b) true 
+c) false
+d) false
+e) false
+f) false
+g) true
+h) false
+
+//q8
+
+const myNum = 3;
+if ((myNum% 3) == 0){
+ console.log("Fizz");   
+}else if {((myNum%5)==0)
+console.log("Buzz");
+}else if ((myNum%3)==0 && ((myNum%5)==0){
+    console.log("FizzBuzz");
+}else{
+    console.log(myNum);
+}
+//q9 
+for (i =0 , i<100,i++){
+    if ((i %3)==0){
+        console.log("Fizz");
+    }else if ((i%5)==0){
+        console.log("Buzz");
+    }else if ((i%3)==0 && ((i%5)==0){
+    console.log("FizzBuzz");
+}else{
+    console.log(i);
+}
