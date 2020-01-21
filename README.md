@@ -138,9 +138,9 @@ for(let i=0;i<=100;i++ )
 ```js
 function count(y)
 {
-    for(y;y<=100;y++ )
+    for(let i =0;i<=y;i++ )
 {
-    console.log(y);
+    console.log(i);
 }
 }
 count(80);
