@@ -115,15 +115,16 @@ Write a conditional statement that...
 ```js
 // your answer here
 
-let num 
-
-if ( (num  === 3  ) {
+for (let i = 0; i < 100; i++) {
+if ( i  === 3  ) {
     console.log("Plang")
 
-    if ( (num === 5  ) {
+    if ( i === 5  ) {
         console.log("Plong")    
 } }  
-else{ console.log(num) }ls
+else{ console.log(i) }
+}
+
 
 ```
 
