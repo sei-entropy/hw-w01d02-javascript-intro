@@ -65,14 +65,14 @@ const num2 = 10;
 5.  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
 // your solution here
-let num3;
+let num3=num1+num2;
 ```
 6.  Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
 
 >The sum of 5 and 10 is 15
 
 ```js
-console.log('The sum of '+num1+' and '+num2+' is '+ (num3=num1+num2) )
+console.log('The sum of '+num1+' and '+num2+' is '+ (num3) )
 ```
 
 ## Comparisons
