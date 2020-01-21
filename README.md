@@ -117,13 +117,13 @@ Write a conditional statement that...
 
 for (let i = 0; i <= 100; i++) {
 
-if ( ( i%3 )  == 3  ) {
-    console.log("Plang")
-
-    if ( ( i% 5 ) == 5  ) {
-        console.log("Plong")    
-} }  
-else{ console.log(i) }
+if (  i%3   === 0  ) {
+    console.log("Plang") 
+  }else if (  i% 5  === 0  ) {
+     console.log("“Buzz”") 
+  }else if  ( i%3   === 0 && i% 5  === 0 ){
+    console.log("“FizzBuzz”")
+  }else{ console.log(i) }
 
 }
 
