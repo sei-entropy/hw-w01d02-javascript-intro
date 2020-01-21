@@ -24,15 +24,15 @@ c = a;
 ### Your solution here:
 1.  What is `a`?
 ```
-a is ...
+a is  bongos
 ```
 2.  What is `b`?
 ```
-b is ...
+b is true
 ```
 3.  What is `c`?
 ```
-c is ...
+c is bongos
 ```
 
 ## Concatenation
@@ -47,7 +47,8 @@ const fourthWord = "cheese";
 Result should be:
 ```js
 "Please squeeze the cheese"
-```
+
+console.log(firstWord +" "+secondWord + " "+ thirdWord +" "+fourthWord +" ")
 
 ### Your solution here:
 4.  Fill in the `console.log()`?
@@ -59,19 +60,21 @@ Output a console log `The sum of 5 and 10 is 15` where the values for 5 and 10 a
 ```js
 const num1 = 5;
 const num2 = 10;
-```
 
+let sum =num1+num2
+console.log("the sum of 5 and 10 is"+sum)
 ### Your solution here:
 5.  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
-// your solution here
+const num3=15;
+num3===sum2
 ```
 6.  Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
 
 >The sum of 5 and 10 is 15
 
 ```js
-console.log()
+console.log("the sum of 5 and 10 is"+sum)
 ```
 
 ## Comparisons
@@ -89,14 +92,14 @@ h) 9 !== 8 + 1
 ### Your solution here:
 7.  Write `true` or `false` based on the list above
 ```
-a) 
-b)  
-c)
-d) 
-e) 
-f) 
-g) 
-h) 
+a) false
+b) true`
+c)false
+d) false
+e) false
+f) false
+g) true
+h) false
 ```
 
 ## Conditionals
@@ -113,6 +116,17 @@ Write a conditional statement that...
 ```js
 // your answer here
 ```
+var fizzbuzz ;
+for (fizzbuzz=0;fizzbuzz <100;fizzbuzz++)
+ {
+  if (fizzbuzz % 3 === 0){
+       console.log("fizz")}
+    else if  (fizzbuzz% 5 === 0){
+        console.log("buzz")}
+     else if(fizzbuzz % 3 === 0 && fizzbuzz % 5 === 0){
+       console.log("fizzbuzz")}
+       else{
+        console.log("fizzbuzz")}}
 
 #### BONUS
 9.  Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
