@@ -172,21 +172,21 @@ while (num <= 100){
 // your answer here
 //function
 function checkConditions(num){
-    if (num % 3 === 0 && num % 5 === 0){
-        console.log('FizzBuzz');
-    }
-    else if (num % 3 === 0){
-        console.log('Fizz');
-    }  
-    else if (num % 5 === 0){
-        console.log('Buzz');
-    }
-    else {
-        console.log(num);
-    }
-
-    num++;
-}
+    for (let i = 0; i <= num; i++){
+        if (i % 3 === 0 && i % 5 === 0){
+            console.log('FizzBuzz');
+        }
+        else if (i % 3 === 0){
+            console.log('Fizz');
+        } 
+        else if (i % 5 === 0){
+            console.log('Buzz');
+        }
+        else {
+            console.log(i);
+        }
+    };
+};
 
 // Then I call the function and pass an argument
 checkConditions(50);
