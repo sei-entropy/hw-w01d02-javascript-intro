@@ -113,21 +113,22 @@ Write a conditional statement that...
 ### Your solution here:
 8.  Write your javascript solution below
 ```js
-let nu= 90;
-if (nu % 3 === 0) 
+let nu = 15;
+if (nu % 5 === 0 && nu % 3 === 0)
+{
+  console.log("FizzBuzz");
+}
+else if (nu % 3 === 0) 
 {
   console.log("Fizz");
 }
 else if (nu % 5 === 0) {
   console.log("buzz");
 }
-else if (nu % 5 === 0 && nu % 3 === 0)
-{
-  console.log("FizzBuzz");
-}
 else {
     console.log(nu);
 }
+
 
 // your answer here
 ```
