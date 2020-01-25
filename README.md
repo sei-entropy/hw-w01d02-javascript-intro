@@ -140,7 +140,22 @@ for (let x = 0; x <= 100; x++){
 ```
 10.  Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
 ```js
-function 
+const FizzBuzz = function (num) {
+ num = 20 ;
+for (let x = 0; x <= num; x++) {
+    if (x % 3 == 0) {
+        console.log("Fizz");
+    } else if (x % 5 == 0) {
+        console.log("Buzz");
+    } else if (x % 3 == 0 && x % 5 == 0) {
+        console.log("FizzBuzz");
+    } else {
+        console.log(x);
+    }
+}
+return num ;
+}
+console.log(FizzBuzz(20))
 ```
 
 # Additional Resources
